@@ -1,4 +1,7 @@
-# python script showing battery details
+""" python script to alarm you when your battery is full
+Creator:Zinz Criz Xavier
+Date:12/11/2021
+"""
 import psutil
 import pyttsx3
 
