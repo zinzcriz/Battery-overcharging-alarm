@@ -2,8 +2,8 @@
 Creator:Zinz Criz Xavier
 Date:12/11/2021
 """
-import psutil
-import pyttsx3
+import psutil #psutil is a cross-platform library for retrieving information on running processes and system utilization in Python. 
+import pyttsx3#used here to convert text to speech for the purpose of alarm
 
 import time
 
@@ -24,7 +24,7 @@ battery = psutil.sensors_battery()
 
 #retrieves information whether power is plugged or not
 n = battery.power_plugged
-#checks whether power is plugged
+#checks whether power is plugged.If power is not plugged,asks the user to turn on power.
 if(n == 0):
     speak("please turn on your charger for the program to continue")
     print("please turn on your charger for the program to continue")
