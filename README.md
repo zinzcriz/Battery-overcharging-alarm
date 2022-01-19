@@ -6,7 +6,7 @@ a python program to alarm you when your battery is fully charged
 
 Excerpt from an [article](https://www.lifewire.com/overcharging-laptop-battery-causes-life-span-to-decrease-2378126) on tips to maximise battery life.
 
-Overcharging your battery can have serious implications in its life.It was a frequent problem I faced while charging my laptop.I often forgot to unplug my charger even after it is fully charged.So I came up with a python program to alert me when my battery charges full.Thus reducing chances of battery life drainage on my laptop.  
+Overcharging your battery can have serious implications in its life.It was a frequent problem I faced while charging my laptop.I often forgot to unplug my charger even after it is fully charged.So I came up with a python program to alert me when my battery charges full.Thus reducing chances of battery life damage on my laptop.  
 # How to use:
 - Clone this repo
 ```
