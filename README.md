@@ -19,7 +19,16 @@ pip install psutil
 ```
 pip install pyttsx3
 ```
+```
+pip install playsound
+```
+- OR
+```
+pip install -r requirements.txt
+```
+
 - Now run the code after turning on your charger
+
 
 
                       
