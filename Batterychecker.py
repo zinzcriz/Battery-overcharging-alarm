@@ -37,7 +37,7 @@ n = battery.power_plugged
 #This while loop checks your battery status repeatedly and alerts you when it reaches 99%
 while (n == 1):
     percent = battery.percent
-    if(percent >= 44):
+    if(percent >= 99):
            speak("battery is full...please unplug your charger ")
            print("Battery percentage remaining: ", battery.percent)
            print("Please unplug your battery")
