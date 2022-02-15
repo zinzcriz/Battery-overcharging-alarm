@@ -4,6 +4,8 @@ Date:12/11/2021
 """
 import psutil #psutil is a cross-platform library for retrieving information on running processes and system utilization in Python. 
 import pyttsx3#used here to convert text to speech for the purpose of alarm
+from playsound import playsound #used to play the audio 
+
 
 import time
 
@@ -35,10 +37,11 @@ n = battery.power_plugged
 #This while loop checks your battery status repeatedly and alerts you when it reaches 99%
 while (n == 1):
     percent = battery.percent
-    if(percent >= 99):
+    if(percent >= 44):
            speak("battery is full...please unplug your charger ")
            print("Battery percentage remaining: ", battery.percent)
            print("Please unplug your battery")
+           playsound('audios/facilityAlarmSound.wav')
 
     time.sleep(60)
     #after a sleep of 60 seconds ,it agains checks whether your power is on or off.If you haven't turned off your charger the loop continues...
